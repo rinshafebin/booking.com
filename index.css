@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+/* nav section */
+.section1{
+    width: 100%;  
+    color: white;
+    padding-top: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 20px;
+    
+}
+
+.nav{
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+.nav-contents {
+    display: flex;
+    gap: 20px; 
+}
+
+.img-section1{
+    margin-top:  0;
+    border-radius: 50%;
+}
+
+.nav-contents button {
+    background-color: white;
+    color: rgb(32, 32, 240);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav-contents :hover {
+    background-color: #454a84;
+    border-radius: 20%;
+}
+
+
+
+.nav1-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.nav1-contents li{
+    display: inline;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-left: 22px;
+
+    
+}
+.stays{
+    width: 80px;
+    height: 80px;
+    padding: 8px 15px;
+    border: 1px solid white; 
+    border-radius: 40%;
+}
+.nav1-contents ul li:hover {
+    background-color: #454a84;
+    border-radius: 4px ;
+}
+
+/* nav section end */
+
+/* search bar */
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr auto;
+    margin-left: 180px;
+    margin-right:180px ;  
+    border: 5px solid orange;
+    background-color: orange;
+    border-radius: 10px;
+    height: 50px;
+    gap: 5px;
+    
+
+}
+.search-1{
+    border: 1px solid rgb(246, 239, 239); 
+    border-radius: 5px ;
+}
+
+.search-contents{    
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: white;
+}
+.search-contents input{
+    border: 20px;
+    background-color: white;
+    padding-right: 5px;
+}
+
+/* search bar ends */
+
+
+/* offer section */
+.section-3{
+    margin-left: 180px;
+    margin-right: 180px;
+ 
+}
+
+.c-border{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: auto auto auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.c-border p,h3,button{
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.img-sec{
+    grid-area: 1/2/4/3;
+
+
+}
+
+/* offer section ends */
+
+
+.section4{
+    margin-left: 180px;
+    margin-right: 180px;
+
+
+}
+.image-container{
+    position: relative;
+
+}
+.image-text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size: 25px;
+
+}
+.img-sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+       
+}
+.img-sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.explore-india{
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.vagator-deat{
+    margin-top: 40px;
+    margin-left: 180px;
+}
+.vagator-img{
+    margin-left: 180px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto auto auto ;
+    gap:10px;
+    row-gap: 20px;
+}
+.vagator-img p{
+    color: gray;
+}
+.explore-india-img{
+    margin-left: 180px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto ;
+    gap:10px;
+    row-gap: 20px;   
+}
+.explore-india-img p{
+    color: gray;
+}
+
+
+
